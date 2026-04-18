@@ -1,4 +1,4 @@
-print("="*25)
+print("="*26)
 name = input("Enter your name: ")
 budget = float(input("Enter your weekly budget: "))
 
