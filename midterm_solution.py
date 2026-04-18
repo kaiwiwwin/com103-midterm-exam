@@ -1,3 +1,4 @@
+print("="*25)
 name = input("Enter your name: ")
 budget = float(input("Enter your weekly budget: "))
 
@@ -8,7 +9,7 @@ categories = [
     "School Supplies",
     "Entertainment"
 ]
-
+print("="*25)
 print("\nWEEKLY EXPENSE -- CATEGORIES")
 for i in range(len(categories)):
     print(f"{i+1}. {categories[i]}")
@@ -17,6 +18,7 @@ expenses = []
 total_spent = 0
 
 for i in range(4):
+    print("="*25)
     print(f"\n--- EXPENSE {i+1} ---")
     cat_num = int(input("Category (0 to skip): "))
 
