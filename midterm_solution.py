@@ -9,7 +9,7 @@ categories = [
     "School Supplies",
     "Entertainment"
 ]
-print("="*25)
+print("="*26)
 print("\nWEEKLY EXPENSE -- CATEGORIES")
 for i in range(len(categories)):
     print(f"{i+1}. {categories[i]}")
