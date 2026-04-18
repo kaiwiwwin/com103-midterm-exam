@@ -1,6 +1,10 @@
 print("="*26)
 name = input("Enter your name: ")
-budget = float(input("Enter your weekly budget: "))
+while True:
+    try:
+        budget = float(input("Enter your weekly budget: "))
+    except ValueError:
+        print("Invalid input, Try again!")
 
 categories = [
     "Food & Drinks",
