@@ -18,7 +18,7 @@ expenses = []
 total_spent = 0
 
 for i in range(4):
-    print("="*25)
+    print("="*26)
     print(f"\n--- EXPENSE {i+1} ---")
     cat_num = int(input("Category (0 to skip): "))
 
